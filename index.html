@@ -35,7 +35,6 @@
         .logo-container img {
             max-width: 250px;
             height: auto;
-            filter: drop-shadow(0 0 30px rgba(212, 161, 33, 0.5));
         }
         
         .container {
@@ -48,7 +47,6 @@
             font-family: 'Anton', sans-serif;
             text-transform: uppercase;
             letter-spacing: 5px;
-            text-shadow: 0 0 30px rgba(212, 161, 33, 0.5);
             color: #d4a121;
             margin-bottom: 30px;
             text-align: center;
@@ -109,9 +107,13 @@
             box-shadow: 0 15px 60px rgba(212, 161, 33, 0.6);
         }
         
-        .product-icon {
-            font-size: 5em;
-            margin: 20px 0;
+        .product-image {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 10px;
+            border: 2px solid #d4a121;
         }
         
         .product-title {
@@ -221,6 +223,7 @@
             transition: all 0.3s;
             z-index: 1000;
             animation: bounce 2s infinite;
+            text-decoration: none;
         }
         
         .whatsapp-float:hover {
@@ -278,29 +281,29 @@
         <h2>📦 NOSSOS PRODUTOS</h2>
         <div class="products-grid">
             <div class="product-card">
-                <div class="product-icon">👕</div>
+                <img src="camiseta-basica.png" alt="Camiseta Básica PDQ" class="product-image">
                 <div class="product-title">Camiseta Oficial Básica</div>
                 <p class="product-description">Camiseta Básica 100% algodão com estampa exclusiva do Poker de Quinta. Conforto e estilo para baralhar!</p>
                 <div class="price">R$ 70,00</div>
                 <div class="sizes">
                     <p>Tamanhos Disponíveis:</p>
-                    <p style="opacity: 0.8;">P | M | G | GG |</p>
+                    <p style="opacity: 0.8;">P | M | G | GG</p>
                 </div>
-                <a href="https://wa.me/5541988247363?text=Olá! Quero comprar uma camiseta do Poker de Quinta!" class="btn-primary">
+                <a href="https://wa.me/5541988247363?text=Olá! Quero comprar uma camiseta Básica do Poker de Quinta!" class="btn-primary">
                     💬 COMPRAR AGORA
                 </a>
             </div>
             
             <div class="product-card">
-                <div class="product-icon">👕</div>
+                <img src="camiseta-polo.png" alt="Camiseta Polo PDQ" class="product-image">
                 <div class="product-title">Camiseta Oficial Polo PDQ</div>
                 <p class="product-description">Versão polo com tecido superior e acabamento especial. Para quem gosta de baralhar na beca!</p>
                 <div class="price">R$ 85,00</div>
                 <div class="sizes">
                     <p>Tamanhos Disponíveis:</p>
-                    <p style="opacity: 0.8;">P | M | G | GG |</p>
+                    <p style="opacity: 0.8;">P | M | G | GG</p>
                 </div>
-                <a href="https://wa.me/5541988247363?text=Olá! Quero comprar uma camiseta do Poker de Quinta!" class="btn-primary">
+                <a href="https://wa.me/5541988247363?text=Olá! Quero comprar uma camiseta Polo do Poker de Quinta!" class="btn-primary">
                     💬 COMPRAR AGORA
                 </a>
             </div>
